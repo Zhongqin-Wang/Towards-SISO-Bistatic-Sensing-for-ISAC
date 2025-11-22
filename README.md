@@ -44,7 +44,7 @@ This demo shows WiDFS 3.0 performing real-time **motion detection** and **gestur
 ---
 
 ## **3. Real-Time Single-Antenna Bistatic Sensing via ESP32 (Unlocked AGC Mode)**  
-🔗 **Video:** https://www.youtube.com/watch?v=I_dquPkgXbE  
+🔗 **Video:** https://www.youtube.com/watch?v=SdnUunW9ueA  
 
 This demo presents the **ESP32 implementation** of WiDFS 3.0 using **unlocked AGC mode**, enabling low-cost and flexible real-time CSI sensing. It demonstrates the feasibility of commodity IoT devices for passive wireless perception.
 
@@ -72,17 +72,17 @@ WiDFS 3.0 enables a wide range of practical wireless sensing applications:
 # 🎥 Additional Demos
 
 ### **4. Real-Time Bistatic Multi-Target WiFi Tracking**  
-🔗 https://youtu.be/DVib9wOY48k  
+🔗 **Video:** https://youtu.be/DVib9wOY48k  
 
 ### **5. Single-Target Real-Time Passive WiFi Tracking**  
-🔗 https://youtu.be/UvceJ2OnJmE  
+🔗 **Video:** https://youtu.be/UvceJ2OnJmE  
 
 Reference:
 1. WiDFS 2.0: Zhongqin Wang, J. Andrew Zhang, Haimin Zhang, Min Xu, and Y. Jay Guo, *“Passive Human Tracking with WiFi Point Clouds,”* IEEE Internet of Things Journal, vol. 12, no. 5, pp. 5528–5543, 2025.
 2. WiDFS: Zhongqin Wang, J. Andrew Zhang, Min Xu, and Y. Jay Guo, *“Single-Target Real-Time Passive WiFi Tracking,”* IEEE Transactions on Mobile Computing, vol. 22, no. 6, pp. 3724–3742, 2023.
 
 ### **6. Water Level Sensing via Communication Signals in a Bi-Static System**  
-🔗 https://youtu.be/Mh-VjUEpSuY  
+🔗 **Video:** https://youtu.be/Mh-VjUEpSuY  
 
 Reference:
 Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, "Water Level Sensing via Communication Signals in a Bi-Static System," arXiv preprint arXiv:2505.19539, 2025.
