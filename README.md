@@ -96,6 +96,15 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Passive Water Level 
 **Focus:** PMN-WaterSense uses CSI-power processing, multi-domain filtering, and phase unwrapping to estimate water-level changes from communication signals.  
 🔗 [Paper](https://ieeexplore.ieee.org/document/11432153/) · [Demo](https://youtu.be/Mh-VjUEpSuY)
 
+#### 🎥 Water-Level Sensing Demo
+
+**Water Level Sensing via Communication Signals in a Bi-Static System**  
+🔗 **Watch the demo:** https://youtu.be/Mh-VjUEpSuY
+
+Demonstration of water-level sensing using communication signals in a bistatic setup.  
+**Related preprint:** Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Water Level Sensing via Communication Signals in a Bi-Static System,”* arXiv:2505.19539, 2025.  
+🔗 [Preprint](https://arxiv.org/abs/2505.19539)
+
 ### 3. ISAC: From Human to Environmental Sensing
 
 Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
@@ -173,15 +182,7 @@ A real-time bistatic WiFi demonstration of tracking multiple targets.
 
 **Reference:** WiDFS, *“Single-Target Real-Time Passive WiFi Tracking,”* IEEE Transactions on Mobile Computing, 2023. See the linked paper and full citation in the WiFi Sensing section above.
 
-### **6. Water Level Sensing via Communication Signals in a Bi-Static System**  
-🔗 **Video:** https://youtu.be/Mh-VjUEpSuY  
-
-Reference:
-Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, "Water Level Sensing via Communication Signals in a Bi-Static System," arXiv preprint arXiv:2505.19539, 2025.
-
----
-
-### **7. WiFi Passive Human Tracking With Multi-Point Differential CSI**  
+### **6. WiFi Passive Human Tracking With Multi-Point Differential CSI**  
 🔗 **Video:** https://www.youtube.com/watch?v=DjAdpB8YxgM  
 
 **By:** Heping Wang and Zhongqin Wang, 2026.  
