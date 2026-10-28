@@ -8,9 +8,67 @@ Clock asynchrony in bistatic sensing remains a major challenge, as independently
 
 ---
 
-## 📄 Reference  
-Zhongqin Wang, J. Andrew Zhang, Kai Wu, Min Xu, and Y. Jay Guo, *“Towards SISO Bistatic Sensing for ISAC,”* arXiv:2508.12614, 2025.  
-(Reference applies to all demos of WiDFS 3.0 below.)
+## 📄 Reference
+
+Zhongqin Wang, J. Andrew Zhang, Kai Wu, Min Xu, and Y. Jay Guo, *“Towards SISO Bistatic Sensing for ISAC,”* **arXiv:2508.12614**, 2025.  
+🔗 [Paper](https://arxiv.org/abs/2508.12614)
+
+This paper introduces **WiDFS 3.0** and is the reference for the three demonstrations below.
+
+---
+
+# 📹 Demo Videos of WiDFS 3.0
+
+## **1. Real-Time Bistatic Passive Sensing via Intel 5300 NIC (Static & Dynamic Target Tracking and Vital Sign Monitoring)**  
+🔗 **Video:** https://www.youtube.com/watch?v=ldF2vq5x0P4  
+
+This demo presents **WiDFS 3.0**, a real-time **bistatic passive WiFi sensing framework** built on the Intel 5300 NIC.  
+The system performs **moving target tracking**, **static object localization**, and **vital sign monitoring** using Channel State Information (CSI).
+
+### **Sensing Functions**
+- Motion Detection: Detects human presence or movement  
+- Moving Target Localization: Estimates XY position, velocity, and acceleration  
+- Tracking: Maintains target trajectory; detects entry & exit  
+- Static Target Localization: Determines XY coordinates of stationary objects  
+- Vital Sign Estimation: Extracts respiration and heartbeat waveforms  
+  - Example: Respiration ≈ 11/min, Heartbeat ≈ 65/min (rest)
+
+---
+
+## **2. Real-Time Single-Antenna Bistatic Gesture Recognition via Intel 5300 NIC**  
+🔗 **Video:** https://www.youtube.com/watch?v=I_dquPkgXbE  
+
+This demo shows WiDFS 3.0 performing real-time **motion detection** and **gesture recognition** using a single-antenna bistatic WiFi setup (1Tx-1Rx).  
+
+### **Sensing Functions**
+- Motion Detection: Detects walking and hand movements  
+- Gesture Recognition: Recognizes gestures such as clapping and zigzag motions  
+
+---
+
+## **3. Real-Time Single-Antenna Bistatic Sensing via ESP32 (Unlocked AGC Mode)**  
+🔗 **Video:** https://www.youtube.com/watch?v=SdnUunW9ueA  
+
+This demo presents the **ESP32 implementation** of WiDFS 3.0 using **unlocked AGC mode**, enabling low-cost and flexible real-time CSI sensing. It demonstrates the feasibility of commodity IoT devices for passive wireless perception.
+
+### **Sensing Functions**
+- Motion Detection: Detects human and hand movements  
+- Vital Sign Estimation: Extracts respiration and heartbeat signals in real time  
+
+---
+
+# 🌟 Potential Applications
+
+WiDFS 3.0 enables a wide range of practical wireless sensing applications:
+
+- Indoor localization & people tracking  
+- Smart home & healthcare monitoring (contactless respiration/heartbeat)  
+- Elderly fall detection & activity recognition  
+- Security: intrusion detection & presence sensing  
+- Gesture interfaces & HCI  
+- Occupancy estimation for buildings  
+- Robotics & autonomous sensing  
+- Low-cost IoT-based environmental perception  
 
 ---
 
@@ -110,61 +168,6 @@ Demonstration of water-level sensing using communication signals in a bistatic s
 Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
 **Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2507.13766)
-
----
-
-# 📹 Demo Videos of WiDFS 3.0
-
-## **1. Real-Time Bistatic Passive Sensing via Intel 5300 NIC (Static & Dynamic Target Tracking and Vital Sign Monitoring)**  
-🔗 **Video:** https://www.youtube.com/watch?v=ldF2vq5x0P4  
-
-This demo presents **WiDFS 3.0**, a real-time **bistatic passive WiFi sensing framework** built on the Intel 5300 NIC.  
-The system performs **moving target tracking**, **static object localization**, and **vital sign monitoring** using Channel State Information (CSI).
-
-### **Sensing Functions**
-- Motion Detection: Detects human presence or movement  
-- Moving Target Localization: Estimates XY position, velocity, and acceleration  
-- Tracking: Maintains target trajectory; detects entry & exit  
-- Static Target Localization: Determines XY coordinates of stationary objects  
-- Vital Sign Estimation: Extracts respiration and heartbeat waveforms  
-  - Example: Respiration ≈ 11/min, Heartbeat ≈ 65/min (rest)
-
----
-
-## **2. Real-Time Single-Antenna Bistatic Gesture Recognition via Intel 5300 NIC**  
-🔗 **Video:** https://www.youtube.com/watch?v=I_dquPkgXbE  
-
-This demo shows WiDFS 3.0 performing real-time **motion detection** and **gesture recognition** using a single-antenna bistatic WiFi setup (1Tx-1Rx).  
-
-### **Sensing Functions**
-- Motion Detection: Detects walking and hand movements  
-- Gesture Recognition: Recognizes gestures such as clapping and zigzag motions  
-
----
-
-## **3. Real-Time Single-Antenna Bistatic Sensing via ESP32 (Unlocked AGC Mode)**  
-🔗 **Video:** https://www.youtube.com/watch?v=SdnUunW9ueA  
-
-This demo presents the **ESP32 implementation** of WiDFS 3.0 using **unlocked AGC mode**, enabling low-cost and flexible real-time CSI sensing. It demonstrates the feasibility of commodity IoT devices for passive wireless perception.
-
-### **Sensing Functions**
-- Motion Detection: Detects human and hand movements  
-- Vital Sign Estimation: Extracts respiration and heartbeat signals in real time  
-
----
-
-# 🌟 Potential Applications
-
-WiDFS 3.0 enables a wide range of practical wireless sensing applications:
-
-- Indoor localization & people tracking  
-- Smart home & healthcare monitoring (contactless respiration/heartbeat)  
-- Elderly fall detection & activity recognition  
-- Security: intrusion detection & presence sensing  
-- Gesture interfaces & HCI  
-- Occupancy estimation for buildings  
-- Robotics & autonomous sensing  
-- Low-cost IoT-based environmental perception  
 
 ---
 
