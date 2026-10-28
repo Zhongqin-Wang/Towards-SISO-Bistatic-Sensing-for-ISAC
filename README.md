@@ -57,6 +57,30 @@ This demo presents the **ESP32 implementation** of WiDFS 3.0 using **unlocked AG
 
 ---
 
+# 🎥 Additional Demos
+
+### **4. Real-Time Bistatic Multi-Target WiFi Tracking**  
+🔗 **Video:** https://youtu.be/DVib9wOY48k  
+
+**By:** Heping Wang and Zhongqin Wang, 2025.  
+A real-time bistatic WiFi demonstration of tracking multiple targets.  
+🔗 [Google Scholar demo entry](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F9UMFwIAAAAJ&citation_for_view=F9UMFwIAAAAJ:qUcmZB5y_30C)
+
+### **5. Single-Target Real-Time Passive WiFi Tracking**  
+🔗 **Video:** https://youtu.be/UvceJ2OnJmE  
+
+**Reference:** WiDFS, *“Single-Target Real-Time Passive WiFi Tracking,”* IEEE Transactions on Mobile Computing, 2023. See the linked paper and full citation in the WiFi Sensing section below.
+
+### **6. WiFi Passive Human Tracking With Multi-Point Differential CSI**  
+🔗 **Video:** https://www.youtube.com/watch?v=DjAdpB8YxgM  
+
+**By:** Heping Wang and Zhongqin Wang, 2026.  
+A demonstration of passive human tracking using multi-point differential CSI.  
+**Reference:** Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Passive Human Tracking With Multi-Point Differential CSI,”* IEEE Transactions on Mobile Computing, 2026.  
+🔗 [Paper](https://doi.org/10.1109/TMC.2026.3688462)
+
+---
+
 # 🌟 Potential Applications
 
 WiDFS 3.0 enables a wide range of practical wireless sensing applications:
@@ -174,29 +198,5 @@ Demonstration of water-level sensing using communication signals in a bistatic s
 Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
 **Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2507.13766)
-
----
-
-# 🎥 Additional Demos
-
-### **4. Real-Time Bistatic Multi-Target WiFi Tracking**  
-🔗 **Video:** https://youtu.be/DVib9wOY48k  
-
-**By:** Heping Wang and Zhongqin Wang, 2025.  
-A real-time bistatic WiFi demonstration of tracking multiple targets.  
-🔗 [Google Scholar demo entry](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F9UMFwIAAAAJ&citation_for_view=F9UMFwIAAAAJ:qUcmZB5y_30C)
-
-### **5. Single-Target Real-Time Passive WiFi Tracking**  
-🔗 **Video:** https://youtu.be/UvceJ2OnJmE  
-
-**Reference:** WiDFS, *“Single-Target Real-Time Passive WiFi Tracking,”* IEEE Transactions on Mobile Computing, 2023. See the linked paper and full citation in the WiFi Sensing section above.
-
-### **6. WiFi Passive Human Tracking With Multi-Point Differential CSI**  
-🔗 **Video:** https://www.youtube.com/watch?v=DjAdpB8YxgM  
-
-**By:** Heping Wang and Zhongqin Wang, 2026.  
-A demonstration of passive human tracking using multi-point differential CSI.  
-**Reference:** Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Passive Human Tracking With Multi-Point Differential CSI,”* IEEE Transactions on Mobile Computing, 2026.  
-🔗 [Paper](https://doi.org/10.1109/TMC.2026.3688462)
 
 ---
