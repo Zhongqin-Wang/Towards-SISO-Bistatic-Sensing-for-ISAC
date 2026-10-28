@@ -74,7 +74,7 @@ WiDFS 3.0 enables a wide range of practical wireless sensing applications:
 
 ## Semantic ISAC
 
-Papers on task-oriented semantic sensing, semantic ISAC, and integrated human and environmental sensing, listed from newest to oldest.
+Papers on task-oriented semantic sensing and semantic ISAC, listed from newest to oldest.
 
 ### 1. Agentic Semantic Sensing for Resource-Adaptive AI-RAN
 
@@ -87,12 +87,6 @@ Zhongqin Wang, Xiaoqi Zhang, Nan Yang, Kai Wu, J. Andrew Zhang, and Y. Jay Guo, 
 Xiaoqi Zhang, J. Andrew Zhang, Zhongqin Wang, Chang Liu, Weijie Yuan, Giuseppe Caire, and Geoffrey Ye Li, *“SemISAC: Semantic Integrated Sensing and Communications,”* **arXiv:2609.18305**, 2026.  
 **Focus:** Unifying semantic communication and semantic sensing through task-aware waveform design and radio-resource allocation, with end-to-end and modular optimization methods.  
 🔗 [Preprint](https://arxiv.org/abs/2609.18305)
-
-### 3. ISAC: From Human to Environmental Sensing
-
-Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
-**Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
-🔗 [Preprint](https://arxiv.org/abs/2507.13766)
 
 ---
 
@@ -152,7 +146,7 @@ Zhongqin Wang, J. Andrew Zhang, Min Xu, and Y. Jay Guo, *“Single-Target Real-T
 
 ## 🌧️ Environmental Sensing
 
-Papers and demonstrations on rainfall and water-level sensing, with papers listed from newest to oldest.
+Papers and demonstrations on rainfall, water-level sensing, and human-to-environmental ISAC, with papers listed from newest to oldest.
 
 ### 1. Rainfall Sensing via Mobile Communication Signals
 
@@ -174,6 +168,12 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Passive Water Level 
 Demonstration of water-level sensing using communication signals in a bistatic setup.  
 **Related preprint:** Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Water Level Sensing via Communication Signals in a Bi-Static System,”* arXiv:2505.19539, 2025.  
 🔗 [Preprint](https://arxiv.org/abs/2505.19539)
+
+### 3. ISAC: From Human to Environmental Sensing
+
+Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
+**Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
+🔗 [Preprint](https://arxiv.org/abs/2507.13766)
 
 ---
 
