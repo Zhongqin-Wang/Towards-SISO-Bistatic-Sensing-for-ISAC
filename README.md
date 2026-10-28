@@ -14,9 +14,9 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, Min Xu, and Y. Jay Guo, *“Towards SISO
 
 ---
 
-## 📚 Related Papers: Passive WiFi Tracking and Multi-Target Sensing
+## 📚 Related Papers: WiFi Tracking, Bistatic and Environmental Sensing
 
-Listed from newest to oldest following the publication order on Google Scholar, these papers cover single-target tracking, WiFi point clouds, multi-point differential CSI, cross-room tracking, and CSI-power-based sensing. The multi-target tracking demonstration is listed separately below.
+Listed from newest to oldest following the publication order on Google Scholar, these papers cover passive WiFi tracking, CSI/RSSI-based bistatic sensing, micro-Doppler construction, reservoir computing, and human-to-environmental ISAC. The multi-target tracking demonstration is listed separately below.
 
 ### 1. CoTrack: Cross-Room Passive WiFi Tracking
 
@@ -30,25 +30,43 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, Kuangda Chen, Min Xu, and Y. Jay Guo, *�
 **Focus:** CSI-power-domain delay–angle–Doppler processing for passive tracking and position-refined micro-Doppler sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2511.22144) · [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F9UMFwIAAAAJ&citation_for_view=F9UMFwIAAAAJ:blknAaTinKkC)
 
-### 3. Bistatic Passive Tracking via CSI Power
+### 3. Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing
 
-Zhongqin Wang, J. Andrew Zhang, Kuangda Chen, and Kai Wu, *“Bistatic Passive Tracking via CSI Power,”* **IEEE International Conference on Communications Workshops (ICC Workshops)**, pp. 1–6, 2026.  
-**Focus:** Bistatic passive tracking using CSI power.  
-🔗 [Paper](https://doi.org/10.1109/ICCWORKSHOPS63917.2026.11586729)
+Yiyi Xu, Zhongqin Wang, Kai Wu, and J. Andrew Zhang, *“Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing,”* **arXiv:2607.20108**, 2026.  
+**Focus:** Resolving mirror ambiguity and suppressing residual by-products in asynchronous bistatic CSI to construct robust micro-Doppler features for WiFi sensing.  
+🔗 [Preprint](https://arxiv.org/abs/2607.20108)
 
-### 4. WiFi Passive Human Tracking With Multi-Point Differential CSI
+### 4. WiFi Sensing via Reservoir Computing
+
+Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Sensing via Reservoir Computing,”* **arXiv:2607.20103**, 2026.  
+**Focus:** ReWiS combines structured micro-Doppler features with a graph-coupled reservoir, adapting to new domains by updating only a lightweight readout.  
+🔗 [Preprint](https://arxiv.org/abs/2607.20103)
+
+### 5. WiRSSI: Rethinking RSSI for WiFi Sensing
+
+Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Rethinking RSSI for WiFi sensing,”* **npj Wireless Technology**, vol. 2, article 45, 2026.  
+**Focus:** RSSI-only passive human tracking and motion sensing using Doppler, angle-of-arrival, and amplitude-derived delay cues from commodity WiFi measurements.  
+🔗 [Paper](https://doi.org/10.1038/s44459-026-00053-y)
+
+### 6. WiFi Passive Human Tracking With Multi-Point Differential CSI
 
 Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Passive Human Tracking With Multi-Point Differential CSI,”* **IEEE Transactions on Mobile Computing**, vol. 25, no. 9, pp. 14972–14987, 2026.  
 **Focus:** Multi-point CSI differencing and tensor decomposition for joint Doppler, range, and angle estimation, with an unscented Kalman filter for tracking.  
 🔗 [Paper](https://doi.org/10.1109/TMC.2026.3688462) · [Demo](https://www.youtube.com/watch?v=DjAdpB8YxgM)
 
-### 5. WiDFS 2.0: Passive Human Tracking With WiFi Point Clouds
+### 7. ISAC: From Human to Environmental Sensing
+
+Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
+**Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
+🔗 [Preprint](https://arxiv.org/abs/2507.13766)
+
+### 8. WiDFS 2.0: Passive Human Tracking With WiFi Point Clouds
 
 Zhongqin Wang, J. Andrew Zhang, Haimin Zhang, Min Xu, and Y. Jay Guo, *“Passive Human Tracking With WiFi Point Clouds,”* **IEEE Internet of Things Journal**, vol. 12, no. 5, pp. 5528–5543, 2025.  
 **Focus:** Extracting Doppler, angle, range, and signal-to-noise features from different body parts as WiFi point clouds, followed by trajectory tracking.  
 🔗 [Paper](https://doi.org/10.1109/JIOT.2024.3487193)
 
-### 6. WiDFS: Single-Target Real-Time Passive WiFi Tracking
+### 9. WiDFS: Single-Target Real-Time Passive WiFi Tracking
 
 Zhongqin Wang, J. Andrew Zhang, Min Xu, and Y. Jay Guo, *“Single-Target Real-Time Passive WiFi Tracking,”* **IEEE Transactions on Mobile Computing**, vol. 22, no. 6, pp. 3724–3742, 2023.  
 **Focus:** Real-time device-free human tracking using Doppler, angle-of-arrival, and reflection-distance estimates from commodity WiFi CSI.  
