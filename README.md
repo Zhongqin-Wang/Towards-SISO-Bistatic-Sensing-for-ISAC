@@ -72,9 +72,9 @@ WiDFS 3.0 enables a wide range of practical wireless sensing applications:
 
 ---
 
-## 📚 WiFi Sensing
+## Semantic ISAC
 
-Papers on WiFi sensing and related semantic ISAC and bistatic processing methods, listed from newest to oldest following the publication order on Google Scholar. Tracking demonstrations are linked below.
+Papers on task-oriented semantic sensing, semantic ISAC, and integrated human and environmental sensing, listed from newest to oldest.
 
 ### 1. Agentic Semantic Sensing for Resource-Adaptive AI-RAN
 
@@ -82,55 +82,67 @@ Zhongqin Wang, Xiaoqi Zhang, Nan Yang, Kai Wu, J. Andrew Zhang, and Y. Jay Guo, 
 **Focus:** Closed-loop semantic sensing for AI-RAN, adapting sensing profiles and observation duration to task evidence through utility-guided profile selection and semantic early exit.  
 🔗 [Preprint](https://arxiv.org/abs/2610.07829)
 
-### 2. CoTrack: Cross-Room Passive WiFi Tracking
-
-Heping Wang, Zhongqin Wang, Henk Wymeersch, and J. Andrew Zhang, *“Cross-Room Passive WiFi Tracking: Joint Estimation of Target Trajectory and Virtual Transmitter Location,”* **arXiv:2609.34797**, 2026.  
-**Focus:** Jointly estimating a human trajectory and virtual transmitter location for passive tracking across rooms without requiring the transmitter position.  
-🔗 [Preprint](https://arxiv.org/abs/2609.34797)
-
-### 3. SemISAC: Semantic Integrated Sensing and Communications
+### 2. SemISAC: Semantic Integrated Sensing and Communications
 
 Xiaoqi Zhang, J. Andrew Zhang, Zhongqin Wang, Chang Liu, Weijie Yuan, Giuseppe Caire, and Geoffrey Ye Li, *“SemISAC: Semantic Integrated Sensing and Communications,”* **arXiv:2609.18305**, 2026.  
 **Focus:** Unifying semantic communication and semantic sensing through task-aware waveform design and radio-resource allocation, with end-to-end and modular optimization methods.  
 🔗 [Preprint](https://arxiv.org/abs/2609.18305)
 
-### 4. Bistatic Passive Sensing via CSI Power
+### 3. ISAC: From Human to Environmental Sensing
+
+Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
+**Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
+🔗 [Preprint](https://arxiv.org/abs/2507.13766)
+
+---
+
+## 📚 WiFi Sensing
+
+Papers on WiFi tracking, bistatic signal processing, and activity recognition, listed from newest to oldest following the publication order on Google Scholar. Tracking demonstrations are linked below.
+
+### 1. CoTrack: Cross-Room Passive WiFi Tracking
+
+Heping Wang, Zhongqin Wang, Henk Wymeersch, and J. Andrew Zhang, *“Cross-Room Passive WiFi Tracking: Joint Estimation of Target Trajectory and Virtual Transmitter Location,”* **arXiv:2609.34797**, 2026.  
+**Focus:** Jointly estimating a human trajectory and virtual transmitter location for passive tracking across rooms without requiring the transmitter position.  
+🔗 [Preprint](https://arxiv.org/abs/2609.34797)
+
+### 2. Bistatic Passive Sensing via CSI Power
 
 Zhongqin Wang, J. Andrew Zhang, Kai Wu, Kuangda Chen, Min Xu, and Y. Jay Guo, *“Bistatic Passive Sensing via CSI Power,”* **IEEE Transactions on Communications**, 2026.  
 **Focus:** CSI-power-domain delay–angle–Doppler processing for passive tracking and position-refined micro-Doppler sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2511.22144) · [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=F9UMFwIAAAAJ&citation_for_view=F9UMFwIAAAAJ:blknAaTinKkC)
 
-### 5. Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing
+### 3. Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing
 
 Yiyi Xu, Zhongqin Wang, Kai Wu, and J. Andrew Zhang, *“Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing,”* **arXiv:2607.20108**, 2026.  
 **Focus:** Resolving mirror ambiguity and suppressing residual by-products in asynchronous bistatic CSI to construct robust micro-Doppler features for WiFi sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2607.20108)
 
-### 6. WiFi Sensing via Reservoir Computing
+### 4. WiFi Sensing via Reservoir Computing
 
 Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Sensing via Reservoir Computing,”* **arXiv:2607.20103**, 2026.  
 **Focus:** ReWiS combines structured micro-Doppler features with a graph-coupled reservoir, adapting to new domains by updating only a lightweight readout.  
 🔗 [Preprint](https://arxiv.org/abs/2607.20103)
 
-### 7. WiRSSI: Rethinking RSSI for WiFi Sensing
+### 5. WiRSSI: Rethinking RSSI for WiFi Sensing
 
 Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Rethinking RSSI for WiFi sensing,”* **npj Wireless Technology**, vol. 2, article 45, 2026.  
 **Focus:** RSSI-only passive human tracking and motion sensing using Doppler, angle-of-arrival, and amplitude-derived delay cues from commodity WiFi measurements.  
 🔗 [Paper](https://doi.org/10.1038/s44459-026-00053-y)
 
-### 8. WiFi Passive Human Tracking With Multi-Point Differential CSI
+### 6. WiFi Passive Human Tracking With Multi-Point Differential CSI
 
 Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Passive Human Tracking With Multi-Point Differential CSI,”* **IEEE Transactions on Mobile Computing**, vol. 25, no. 9, pp. 14972–14987, 2026.  
 **Focus:** Multi-point CSI differencing and tensor decomposition for joint Doppler, range, and angle estimation, with an unscented Kalman filter for tracking.  
 🔗 [Paper](https://doi.org/10.1109/TMC.2026.3688462) · [Demo](https://www.youtube.com/watch?v=DjAdpB8YxgM)
 
-### 9. WiDFS 2.0: Passive Human Tracking With WiFi Point Clouds
+### 7. WiDFS 2.0: Passive Human Tracking With WiFi Point Clouds
 
 Zhongqin Wang, J. Andrew Zhang, Haimin Zhang, Min Xu, and Y. Jay Guo, *“Passive Human Tracking With WiFi Point Clouds,”* **IEEE Internet of Things Journal**, vol. 12, no. 5, pp. 5528–5543, 2025.  
 **Focus:** Extracting Doppler, angle, range, and signal-to-noise features from different body parts as WiFi point clouds, followed by trajectory tracking.  
 🔗 [Paper](https://doi.org/10.1109/JIOT.2024.3487193)
 
-### 10. WiDFS: Single-Target Real-Time Passive WiFi Tracking
+### 8. WiDFS: Single-Target Real-Time Passive WiFi Tracking
 
 Zhongqin Wang, J. Andrew Zhang, Min Xu, and Y. Jay Guo, *“Single-Target Real-Time Passive WiFi Tracking,”* **IEEE Transactions on Mobile Computing**, vol. 22, no. 6, pp. 3724–3742, 2023.  
 **Focus:** Real-time device-free human tracking using Doppler, angle-of-arrival, and reflection-distance estimates from commodity WiFi CSI.  
@@ -140,7 +152,7 @@ Zhongqin Wang, J. Andrew Zhang, Min Xu, and Y. Jay Guo, *“Single-Target Real-T
 
 ## 🌧️ Environmental Sensing
 
-Papers on rainfall, water-level sensing, and human-to-environmental ISAC, listed from newest to oldest.
+Papers and demonstrations on rainfall and water-level sensing, with papers listed from newest to oldest.
 
 ### 1. Rainfall Sensing via Mobile Communication Signals
 
@@ -162,12 +174,6 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Passive Water Level 
 Demonstration of water-level sensing using communication signals in a bistatic setup.  
 **Related preprint:** Zhongqin Wang, J. Andrew Zhang, Kai Wu, and Y. Jay Guo, *“Water Level Sensing via Communication Signals in a Bi-Static System,”* arXiv:2505.19539, 2025.  
 🔗 [Preprint](https://arxiv.org/abs/2505.19539)
-
-### 3. ISAC: From Human to Environmental Sensing
-
-Kai Wu, Zhongqin Wang, Shu-Lin Chen, J. Andrew Zhang, and Y. Jay Guo, *“ISAC: From Human to Environmental Sensing,”* **IEEE Journal of Selected Topics in Electromagnetics, Antennas and Propagation**, 2025.  
-**Focus:** A review of ISAC signal mechanisms and features spanning human localization, activity recognition, vital signs, rainfall, soil moisture, and water-level sensing.  
-🔗 [Preprint](https://arxiv.org/abs/2507.13766)
 
 ---
 
