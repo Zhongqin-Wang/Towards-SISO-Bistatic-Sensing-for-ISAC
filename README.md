@@ -108,13 +108,13 @@ Zhongqin Wang, J. Andrew Zhang, Kai Wu, Kuangda Chen, Min Xu, and Y. Jay Guo, *�
 
 ### 3. Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing
 
-Yiyi Xu, Zhongqin Wang, Kai Wu, and J. Andrew Zhang, *“Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing,”* **arXiv:2607.20108**, 2026.  
+Yiyi Xu, Zhongqin Wang, Kai Wu, and J. Andrew Zhang, *“Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing,”* **IEEE Global Communications Conference (GLOBECOM)**, 2026 (accepted).  
 **Focus:** Resolving mirror ambiguity and suppressing residual by-products in asynchronous bistatic CSI to construct robust micro-Doppler features for WiFi sensing.  
 🔗 [Preprint](https://arxiv.org/abs/2607.20108)
 
 ### 4. WiFi Sensing via Reservoir Computing
 
-Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Sensing via Reservoir Computing,”* **arXiv:2607.20103**, 2026.  
+Heping Wang, Zhongqin Wang, and J. Andrew Zhang, *“WiFi Sensing via Reservoir Computing,”* **IEEE Global Communications Conference (GLOBECOM)**, 2026 (accepted).  
 **Focus:** ReWiS combines structured micro-Doppler features with a graph-coupled reservoir, adapting to new domains by updating only a lightweight readout.  
 🔗 [Preprint](https://arxiv.org/abs/2607.20103)
 
